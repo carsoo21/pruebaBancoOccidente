@@ -1,0 +1,17 @@
+.info-empresa .nom{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #293348;
+}
+.info-empresa .nit{
+  font-size: 1.5rem;
+  color: #8895aa;
+}
+.info-empresa .capa, .info-empresa .segmento{
+  font-size: 1.5rem;
+  color: #293348;
+  font-weight: 700;
+}
+.info-empresa .capa span, .info-empresa .segmento span{
+  font-weight: 400;
+}

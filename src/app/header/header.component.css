@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  background-color: #fff;
+  color: white;
+  font-weight: 600;
+  border-bottom: 2px solid #d0d7da;
+}
+@media (min-width: 1200px){
+  .hidden-lg{
+    display: none !important;
+  }
+}
+.logo{
+  height: 57px;
+}
+@media (max-width: 1199px){
+  .hidden-md{
+    display: none !important;
+  }
+}
+.card-user{
+  margin-right: 15px;
+}
+.card-user p{
+  margin-bottom: 0;
+  text-align: right;
+  color: #15243c;
+  line-height: 1.2;
+  margin-right: 20px;
+}
+.card-user p span{
+  color: #8c9aad;
+}
+.img-user{
+  position: relative;
+}
+.img-user .subir-img{
+  position: absolute;
+  bottom: 0px;
+  right: -6px;
+}
