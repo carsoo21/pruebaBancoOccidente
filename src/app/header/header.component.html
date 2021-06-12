@@ -12,7 +12,7 @@
       </div>
       <div class="col-auto hidden-md">
         <div class="card-user d-flex justify-content-between align-items-center">
-          <p class="mr-5">Carlos Gómez<br><span>Gerente de Relación</span></p>
+          <p class="mr-5" *ngIf="user">{{user.gerenteRelacion}}<br><span>Gerente de Relación</span></p>
           <div class="img-user">
             <img class="icon-user" src="assets/images/img-user.png" />
             <img class="subir-img" src="assets/images/subir.png" />

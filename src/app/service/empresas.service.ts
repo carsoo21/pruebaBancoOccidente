@@ -5,6 +5,8 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class EmpresasService {
+  data:any={};
+  cargada=false;
   constructor(
     private http: HttpClient
   ) {

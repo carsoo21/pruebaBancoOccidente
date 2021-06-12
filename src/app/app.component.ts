@@ -9,11 +9,15 @@ import { EmpresasService } from './service/empresas.service';
 export class AppComponent {
   title = 'prueba-bo';
 
+  data:any={};
+  cargada=false;
   constructor(
     public json: EmpresasService
   ){
     this.json.getEmpresas('https://9wu950np7c.execute-api.sa-east-1.amazonaws.com/pruebaBO/800220154').subscribe((res: any) => {
-      console.log(res);
+
+      this.data=res;
+      this.cargada=true;
     })
   }
 }
