@@ -8,8 +8,9 @@ export class EmpresasService {
   constructor(
     private http: HttpClient
   ) {
+
   }
   getEmpresas(url: string){
-    return this.http.get(url);
+    return this.http.get(url, { responseType: 'text' });
   }
 }
