@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { EmpresasService } from '../service/empresas.service';
 import { DataService } from '../data.service';
 import { error } from '@angular/compiler/src/util';
 
@@ -13,7 +12,6 @@ export class InfoEmpresaComponent implements OnInit {
 
   public user: any;
   constructor(
-    public json: EmpresasService,
     public dataService: DataService
     ) {
   }
